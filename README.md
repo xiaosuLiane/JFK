@@ -1,2 +1,2 @@
 # JFK
-模仿b站UP主@beibao233做的Android版本IloveJFK
+一个安卓菜鸟模仿b站UP主@beibao233做的Android版本IloveJFK
