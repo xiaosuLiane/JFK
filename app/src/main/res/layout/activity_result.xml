@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D50000"
+    tools:context=".ResultActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/resultTitle"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="你刺杀了?位肯尼迪！\n难道你就是枪手转世吗？"
+            />
+        <TextView
+            android:id="@+id/saveResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="得分 ?\n最佳 ?"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/resetGame"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="重来"
+            />
+    </LinearLayout>
+</LinearLayout>
